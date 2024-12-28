@@ -1,0 +1,17 @@
+{
+  "name": "vtkjs_example",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack --progress --mode=development",
+    "start": "webpack serve --progress --mode=development --static=src",
+     "test": "echo \"Error: no test specified\" && exit 1"
+   },
+  "dependencies": {
+    "@kitware/vtk.js": "^32.8.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  }
+}
